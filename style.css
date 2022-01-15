@@ -130,10 +130,11 @@ nav{
     border-radius: 10px;
     
 }
+
 .grid{
     display:flex;
     flex-direction: column; 
-    /* width: 300px;  */
+    width: 300px; 
     background-color: white;
     padding: 10px;
     margin: 10px;
@@ -252,11 +253,15 @@ nav{
     .collection{
         margin: 20px;
     }
+    /*
     .collection-photo{
         text-align: center;
     }
     .collection-details{
     text-align: center;
+    } */
+    .btn-collection{
+        margin-left: 73%;
     }
     .footer{
         width: 100%;
@@ -273,11 +278,14 @@ nav{
         height: fit-content;
         margin: 20px;
     }
-    .collection-photo{
+    /* .collection-photo{
             text-align: center;
     }
     .collection-details{
         text-align: center;
+    } */
+    .btn-collection{
+        margin-left: 70%;
     }
 
     .contact{
